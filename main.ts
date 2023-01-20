@@ -8,4 +8,6 @@ input.onGesture(Gesture.TiltLeft, function on_gesture_tilt_left() {
 input.onGesture(Gesture.Shake, function on_gesture_shake() {
     led.plot(3, 0)
 })
-music.playMelody("D E F G A G B A ", 120)
+for (let index = 0; index < 4; index++) {
+    music.playMelody("D E F G A G B A ", 120)
+}

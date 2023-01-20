@@ -11,4 +11,5 @@ def on_gesture_shake():
     led.plot(3, 0)
 input.on_gesture(Gesture.SHAKE, on_gesture_shake)
 
-music.play_melody("D E F G A G B A ", 120)
+for index in range(4):
+    music.play_melody("D E F G A G B A ", 120)

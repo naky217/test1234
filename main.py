@@ -8,7 +8,7 @@ def on_gesture_tilt_left():
 input.on_gesture(Gesture.TILT_LEFT, on_gesture_tilt_left)
 
 def on_gesture_shake():
-    led.plot(3, 0)
+    led.plot(7, 2)
 input.on_gesture(Gesture.SHAKE, on_gesture_shake)
 
 for index in range(4):
